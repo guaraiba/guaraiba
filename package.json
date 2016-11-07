@@ -1,0 +1,35 @@
+{
+  "name": "guaraiba",
+  "version": "1.0.0",
+  "author": {
+    "name": "Yoandry Pacheco Aguila",
+    "email": "yoandrypa@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guaraiba/guaraiba.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guaraiba/guaraiba/issues"
+  },
+  "homepage": "https://github.com/guaraiba/guaraiba",
+  "bin": "./bin/cli.js",
+  "license": "LGPL-3.0",
+  "licenses": [
+    {
+      "type": "LGPL-3.0",
+      "url": "http://spdx.org/licenses/LGPL-3.0.html#licenseText"
+    },
+    {
+      "type": "EPL-1.0",
+      "url": "http://spdx.org/licenses/EPL-1.0.html#licenseText"
+    }
+  ],
+  "dependencies": {
+    "colors": "^1.1.2",
+    "fs-extra": "^0.30.0",
+    "jake": "^8.0.12",
+    "promptly": "^1.1.0",
+    "qooxdoo-sdk": "^5.0.1"
+  }
+}
