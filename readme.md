@@ -1,6 +1,6 @@
 ## Guaraiba
 
-It is the instalation package of guaraiba framework.
+It is the installation package of guaraiba framework.
 
 Guaraiba is framework developed in JavaScript and qooxdoo that allows the creation of web applications NodeJS under the
 Model View Controller architectural pattern.
