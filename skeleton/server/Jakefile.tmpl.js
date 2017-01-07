@@ -6,7 +6,7 @@ var colors = require('colors'),
         var resource = qx.util.ResourceManager.getInstance();
         require(resource.toUri('guaraiba/tasks/Jakefile.js'));
     },
-    needBuid = function(err){
+    needBuid = function (err) {
         if (err) {
             console.log('');
             console.log('----------------------------------------------------------------------');
@@ -51,7 +51,7 @@ if (fs.existsSync('./${Namespace}-server.js')) {
 }
 
 /**************** OTHER COMMON TASKS. ***************/
-task('default', {async: true}, function () {
+task('default', { async: true }, function () {
     jake.run('--tasks');
     console.log('');
     complete();

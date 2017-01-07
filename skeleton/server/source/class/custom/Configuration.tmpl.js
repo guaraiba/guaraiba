@@ -15,6 +15,7 @@ qx.Class.define('${Namespace}.Configuration', {
             // this.sessionSecret('a3d68565c5bd86c8d13af3b98c23e6bb');
             this.setDefaultFormat('json');
             this.setAllowCORS(false);
+            this.javaClassPath('guaraiba/java/sqlite-jdbc-3.6.7.jar');
 
             // Register database schemas.
             var dbPath = guaraiba.path.join(guaraiba.appDataPath, 'app.db'),
@@ -26,7 +27,9 @@ qx.Class.define('${Namespace}.Configuration', {
                     debug: true
                 },
 
-                jdbcSettings = {driver: 'org.sqlite.JDBC', connectString: 'jdbc:sqlite:' + dbPath}
+                jdbcSettings = {driver: 'org.sqlite.JDBC', connectString: 'jdbc:sqlite:' + dbPath};
+
+
 
             this.registerDBSchema(new ${Namespace}.schemas.Default(knexSetting, jdbcSettings));
         }
