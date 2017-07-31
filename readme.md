@@ -10,10 +10,18 @@ compilation and documentation of applications under the paradigm of object-orien
 
 ### Install globally modules:
 
+#### Install from www.npmjs.com:
+
+```shell
+npm install -g guaraiba
+```
+
+#### Install from github.com:
+
 ```shell
 npm install -g guaraiba/guaraiba
 ```
-    
+
 ### See user guide in guaraiba-sdk documentation:
 
 * [Wiki pages](https://github.com/guaraiba/guaraiba-sdk/wiki)
